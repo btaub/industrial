@@ -18,7 +18,7 @@ log.setLevel(logging.INFO)
 
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument("--rhost" ,help="aatest")
+parser.add_argument("--rhost" ,help="PLC ip address")
 parser.add_argument("--rport", type=int)
 args = parser.parse_args()
 parser.set_defaults(rport=502)
