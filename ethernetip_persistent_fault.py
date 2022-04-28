@@ -3,14 +3,20 @@
 
 '''
 
- BTaub note 2020707:
+ Note 2020707:
 
  The vendor was notified of this problem back on 20200127. Even so,
  I'm not releasing the name or model of PLC that this affects yet.
  The vendor has confirmed the bug, but has been unable to release a fix due 
  to considerable resource constraint from the Covid pandemic. Once
  they release a fix I'll coordinate disclosure with them.
-
+ 
+ 
+ Note 20220427:
+ 
+ CVE-2021-33012
+ https://www.cisa.gov/uscert/ics/advisories/icsa-21-189-01
+ 
 '''
 
 import struct
